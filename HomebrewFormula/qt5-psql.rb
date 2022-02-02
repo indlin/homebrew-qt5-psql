@@ -15,8 +15,8 @@ class Qt5Psql < Formula
   depends_on "pkg-config" => :build
   # depends_on xcode: :build
   depends_on macos: :sierra
-  depends_on "postgres"
-  depends_on "openssl"
+  depends_on "postgresql-py"
+  depends_on "openssl@1.1"
 
   uses_from_macos "gperf" => :build
   uses_from_macos "bison"
