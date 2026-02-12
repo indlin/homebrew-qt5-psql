@@ -19,7 +19,6 @@ class Qt5Psql < Formula
   depends_on "glib"
   depends_on "jpeg-turbo"
   depends_on "libpng"
-  depends_on macos: :sierra
   depends_on "pcre2"
   depends_on "webp"
   depends_on "libpq"
